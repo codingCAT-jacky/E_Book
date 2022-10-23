@@ -10,7 +10,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        ZStack{
+            NavigationView{
+                VStack{
+                    NavigationLink(destination: page1View(), label: {
+                        Text("Hello World123")
+                        
+                    })
+//                    NavigationLink("對的時間點", destination: page1View())
+//                        .font(.largeTitle)
+//                        .foregroundColor(.red)
+                    
+                        Image("clock1")
+                            .resizable()
+                        .scaledToFit()
+                    
+                }
+            .navigationBarTitle("is that you?")
+            }
+        }
+        
     }
 }
 
