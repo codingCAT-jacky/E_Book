@@ -38,8 +38,3 @@ struct page2View_Previews: PreviewProvider {
         }
     }
 }
-struct Book: Identifiable{
-    let id = UUID()
-    let name: String
-    let author: String
-}

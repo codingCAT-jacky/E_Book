@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		392DEB952905E32C004185A5 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392DEB942905E32C004185A5 /* Song.swift */; };
 		39C14F1029055DB500C6273B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C14F0F29055DB500C6273B /* AppDelegate.swift */; };
 		39C14F1229055DB500C6273B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C14F1129055DB500C6273B /* SceneDelegate.swift */; };
 		39C14F1429055DB500C6273B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C14F1329055DB500C6273B /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		392DEB942905E32C004185A5 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		39C14F0C29055DB500C6273B /* E_Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = E_Book.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C14F0F29055DB500C6273B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39C14F1129055DB500C6273B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				39C14F1129055DB500C6273B /* SceneDelegate.swift */,
 				39C14F1329055DB500C6273B /* ContentView.swift */,
 				39C14F25290588F900C6273B /* page2View.swift */,
+				392DEB942905E32C004185A5 /* Song.swift */,
 				39C14F1529055DB600C6273B /* Assets.xcassets */,
 				39C14F1A29055DB600C6273B /* LaunchScreen.storyboard */,
 				39C14F1D29055DB600C6273B /* Info.plist */,
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				392DEB952905E32C004185A5 /* Song.swift in Sources */,
 				39C14F1029055DB500C6273B /* AppDelegate.swift in Sources */,
 				39C14F26290588F900C6273B /* page2View.swift in Sources */,
 				39C14F1229055DB500C6273B /* SceneDelegate.swift in Sources */,
