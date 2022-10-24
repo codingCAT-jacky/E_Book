@@ -16,6 +16,9 @@
 		39C14F1C29055DB600C6273B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C14F1A29055DB600C6273B /* LaunchScreen.storyboard */; };
 		39C14F2429055DE300C6273B /* page1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C14F2329055DE300C6273B /* page1View.swift */; };
 		39C14F26290588F900C6273B /* page2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C14F25290588F900C6273B /* page2View.swift */; };
+		4B45035D2905FFDF006A4042 /* Singer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B45035C2905FFDF006A4042 /* Singer.swift */; };
+		4B450368290600A7006A4042 /* SongRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B450367290600A7006A4042 /* SongRow.swift */; };
+		4B45036B290600B3006A4042 /* SingerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B45036A290600B3006A4042 /* SingerRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		39C14F1D29055DB600C6273B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39C14F2329055DE300C6273B /* page1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page1View.swift; sourceTree = SOURCE_ROOT; };
 		39C14F25290588F900C6273B /* page2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page2View.swift; sourceTree = "<group>"; usesTabs = 0; };
+		4B45035C2905FFDF006A4042 /* Singer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singer.swift; sourceTree = "<group>"; };
+		4B450367290600A7006A4042 /* SongRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRow.swift; sourceTree = "<group>"; };
+		4B45036A290600B3006A4042 /* SingerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingerRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +72,11 @@
 				39C14F0F29055DB500C6273B /* AppDelegate.swift */,
 				39C14F1129055DB500C6273B /* SceneDelegate.swift */,
 				39C14F1329055DB500C6273B /* ContentView.swift */,
+				4B450367290600A7006A4042 /* SongRow.swift */,
+				4B45036A290600B3006A4042 /* SingerRow.swift */,
 				39C14F25290588F900C6273B /* page2View.swift */,
 				392DEB942905E32C004185A5 /* Song.swift */,
+				4B45035C2905FFDF006A4042 /* Singer.swift */,
 				39C14F1529055DB600C6273B /* Assets.xcassets */,
 				39C14F1A29055DB600C6273B /* LaunchScreen.storyboard */,
 				39C14F1D29055DB600C6273B /* Info.plist */,
@@ -156,11 +165,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				392DEB952905E32C004185A5 /* Song.swift in Sources */,
+				4B45035D2905FFDF006A4042 /* Singer.swift in Sources */,
 				39C14F1029055DB500C6273B /* AppDelegate.swift in Sources */,
 				39C14F26290588F900C6273B /* page2View.swift in Sources */,
 				39C14F1229055DB500C6273B /* SceneDelegate.swift in Sources */,
+				4B45036B290600B3006A4042 /* SingerRow.swift in Sources */,
 				39C14F1429055DB500C6273B /* ContentView.swift in Sources */,
 				39C14F2429055DE300C6273B /* page1View.swift in Sources */,
+				4B450368290600A7006A4042 /* SongRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
