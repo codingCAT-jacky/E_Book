@@ -22,6 +22,8 @@
 		4B45036E2906D4F7006A4042 /* SingerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B45036D2906D4F7006A4042 /* SingerDetail.swift */; };
 		4B4503712906DFE4006A4042 /* page3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4503702906DFE4006A4042 /* page3View.swift */; };
 		4B4503742906EA33006A4042 /* page4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4503732906EA33006A4042 /* page4View.swift */; };
+		4B997976290FE746007CAD44 /* PlayVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B997975290FE746007CAD44 /* PlayVideo.swift */; };
+		4BF7C4CC2908E89500A6F8C0 /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7C4CB2908E89500A6F8C0 /* SongView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		4B45036D2906D4F7006A4042 /* SingerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingerDetail.swift; sourceTree = "<group>"; };
 		4B4503702906DFE4006A4042 /* page3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page3View.swift; sourceTree = "<group>"; };
 		4B4503732906EA33006A4042 /* page4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page4View.swift; sourceTree = "<group>"; };
+		4B997975290FE746007CAD44 /* PlayVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVideo.swift; sourceTree = "<group>"; };
+		4BF7C4CB2908E89500A6F8C0 /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 			children = (
 				39C14F2329055DE300C6273B /* page1View.swift */,
 				4B45036D2906D4F7006A4042 /* SingerDetail.swift */,
+				4BF7C4CB2908E89500A6F8C0 /* SongView.swift */,
 				39C14F0F29055DB500C6273B /* AppDelegate.swift */,
 				39C14F1129055DB500C6273B /* SceneDelegate.swift */,
 				39C14F1329055DB500C6273B /* ContentView.swift */,
@@ -86,6 +91,7 @@
 				4B4503732906EA33006A4042 /* page4View.swift */,
 				392DEB942905E32C004185A5 /* Song.swift */,
 				4B45035C2905FFDF006A4042 /* Singer.swift */,
+				4B997975290FE746007CAD44 /* PlayVideo.swift */,
 				39C14F1529055DB600C6273B /* Assets.xcassets */,
 				39C14F1A29055DB600C6273B /* LaunchScreen.storyboard */,
 				39C14F1D29055DB600C6273B /* Info.plist */,
@@ -178,11 +184,13 @@
 				4B4503742906EA33006A4042 /* page4View.swift in Sources */,
 				4B45035D2905FFDF006A4042 /* Singer.swift in Sources */,
 				39C14F1029055DB500C6273B /* AppDelegate.swift in Sources */,
+				4B997976290FE746007CAD44 /* PlayVideo.swift in Sources */,
 				39C14F26290588F900C6273B /* page2View.swift in Sources */,
 				39C14F1229055DB500C6273B /* SceneDelegate.swift in Sources */,
 				4B45036B290600B3006A4042 /* SingerRow.swift in Sources */,
 				39C14F1429055DB500C6273B /* ContentView.swift in Sources */,
 				39C14F2429055DE300C6273B /* page1View.swift in Sources */,
+				4BF7C4CC2908E89500A6F8C0 /* SongView.swift in Sources */,
 				4B45036E2906D4F7006A4042 /* SingerDetail.swift in Sources */,
 				4B450368290600A7006A4042 /* SongRow.swift in Sources */,
 			);
@@ -324,6 +332,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"E_Book/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = E_Book/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -343,6 +352,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"E_Book/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = E_Book/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

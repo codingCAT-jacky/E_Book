@@ -13,7 +13,7 @@ struct page2View: View {
     
 
     Singer(name: "陳零九", star: "３",songs: ["一個人"]),
-    Singer(name: "JustinBiber", star: "３",songs: ["Love Yourself"]),
+    Singer(name: "JustinBiber", star: "３",songs: ["Love yourself"]),
     Singer(name: "凛として時雨", star: "4",songs: ["Unravel"]),
 
   ]
@@ -32,7 +32,44 @@ struct page2View: View {
   ]
     var body: some View {
       VStack{
+        NavigationView{
 
+            List{
+
+                    Section(header: Text("男歌手/樂手")){
+                      ForEach(MaleSingers){ singer in
+                        NavigationLink(
+                            destination: SingerDetail(singer: singer),
+                            label: {
+                               SingerRow(singer: singer)
+                            })
+                      }
+                    }
+                      Section(header: Text("女歌手")){
+                        ForEach(FemaleSingers){ singer in
+                          NavigationLink(
+                              destination: SingerDetail(singer: singer),
+                              label: {
+                                 SingerRow(singer: singer)
+                              })
+                        }
+                      }
+                      Section(header: Text("樂團")){
+                        ForEach(BandSingers){ singer in
+                          NavigationLink(
+                              destination: SingerDetail(singer: singer),
+                              label: {
+                                 SingerRow(singer: singer)
+                              })
+                        }
+                      }
+
+
+            }
+          .edgesIgnoringSafeArea(.all)
+            .navigationBarTitle("已開過歌曲", displayMode:.automatic)
+
+        }
       }
     }
 }

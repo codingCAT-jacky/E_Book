@@ -9,13 +9,23 @@
 import SwiftUI
 
 struct SongRow: View {
+  let song : String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+      VStack{
+        Image(song)
+          .resizable()
+        .scaledToFill()
+        .frame(width: 200, height: 200)
+        .clipped()
+
+        Text(song).font(.title).background(Color.orange)
+      }
     }
 }
 
 struct SongRow_Previews: PreviewProvider {
     static var previews: some View {
-        SongRow()
+      SongRow(song:"Like a star")
+
     }
 }

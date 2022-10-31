@@ -9,21 +9,48 @@
 import SwiftUI
 
 struct SingerDetail: View {
-  let gridItems = Array(repeating: GridItem(.flexible()), count: 3)
-
+  let  singer:Singer
+ 
     var body: some View {
-      ScrollView(.horizontal) {
 
-        LazyHGrid(columns: columns) {
+      let gridItems = Array(repeating: GridItem(.flexible()), count: 2)
+      
+      ScrollView{
+        Image(singer.name)
+          .resizable()
+        .scaledToFit()
+        .frame(width: 80, height: 80)
+        .clipped()
+        LazyVGrid(columns: gridItems, content: {
+
+          
+          ForEach(0..<singer.songs.count){
+              i in
+            NavigationLink(
+                destination: SongView(song: singer.songs[i]),
+                label: {
+                  SongRow(song: singer.songs[i])
+                })
 
           }
-      }
+
+        })
+      }.navigationBarTitle(singer.name, displayMode:.automatic)
+
+
+
 
     }
 }
 
 struct SingerDetail_Previews: PreviewProvider {
     static var previews: some View {
-        SingerDetail()
+      NavigationView{
+        SingerDetail(singer:.demoSinger)
+      }
+
     }
 }
+
+
+
